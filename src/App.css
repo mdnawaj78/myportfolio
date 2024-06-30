@@ -27,6 +27,18 @@
 .App-link {
   color: #61dafb;
 }
+.whats_app_float{
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 99;
+  color: lightgreen;
+}
+.whatsapp_logo{
+  width: 75px !important;
+  height: 75px !important;
+}
+
 
 @keyframes App-logo-spin {
   from {
