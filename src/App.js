@@ -34,8 +34,9 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
-        <WhatsApp/>
         <ScrollToTop />
+        <WhatsApp/>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
